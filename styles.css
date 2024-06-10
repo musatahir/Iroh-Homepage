@@ -2,60 +2,79 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    min-height: 100vh;
-    font-family: Roboto, sans-serif;
-    color: #186de4;
-    box-sizing: border-box;
+    font-family: "Caveat Brush", cursive;
+    min-width: 1200px;
 }
 
 
-#hero_main_text {
-    font-size: 60px;
-    font-weight: 800;
-    color: #F9FAF8
-}
-
-#hero_secondary_text {
-    font-size: 24px;
-    font-weight: 800;
-    color: #E5E7EB
-}
-
-.header,
-.hero_section {
-    background-color: #1F2937;
-    display: flex;
+h1 {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 900;
 }
 
 .header {
-    padding: 30px;
+    height: 60px;
+    background-color: #00bbf0;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #00204ae0;
+    color: black;
+    align-items: center;
+}
+
+
+.first_button {
+    font-weight: 900;
+    padding: 12px 25px;
+    border-radius: 200px;
+    background-color: white;
+    align-self: center;
+    font-family: "Caveat Brush", cursive;
+    font-size: 30px;
+}
+
+
+.first_button:hover {
+    cursor: pointer;
+    background-color: #00204a5c;
+    box-shadow: 3px 3px 7px 3px;
+
+}
+
+
+p {
+    font-size: 25px;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
 }
 
 .hero_section {
-    box-sizing: border-box;
-    padding-top: 80px;
-    height: 65vh;
-    justify-content: center;
-    background-color: #1F2937;
-    gap: 3.5rem;
-    /* Center the content horizontally */
+    display: flex;
+    align-items: center;
+    background-color: #00bbf0;
+    padding: 40px;
+    margin: 80px;
+    border: 5px solid #fdb44b;
+    box-shadow: 3px 3px 10px 5px white;
+    border-radius: 100px;
+    gap: 50px;
+    width: 950px;
+    height: 350px;
 }
 
-.left_side {
-    width: 45%;
-    /* padding-top: 1rem; */
-    /* padding: 0 20px; */
-    /* Add padding as needed */
-}
 
-.right_side {
 
-    /* width: 40%; */
-    /* padding: 0 20px; */
-    /* Add padding as needed */
-}
 
-#main_iroh {
-    height: 80%;
+.hero_img {
+    height: 350px;
     width: auto;
 }
