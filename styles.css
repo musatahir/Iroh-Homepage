@@ -44,7 +44,7 @@ h1 {
 .top {
     /* display: flex; */
     /* flex-direction: column; */
-    background-color: #00204ae0;
+    background-color: #005792;
     /* background-color: #00bbf0; */
     color: black;
     /* align-items: center; */
@@ -127,4 +127,13 @@ a:hover {
 
 ul {
     list-style-type: none;
+}
+
+
+.info_title {
+    font-size: 50px;
+}
+
+.info {
+    background-color: #fdb44b;
 }
