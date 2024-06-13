@@ -179,6 +179,7 @@ ul {
 }
 
 .quote_section {
+    border-top: 3px black solid;
     display: flex;
     flex-direction: column;
     padding: 100px 125px;
@@ -200,6 +201,7 @@ ul {
 }
 
 .action_section {
+    border-top: 3px black solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,6 +243,7 @@ ul {
 }
 
 .footer {
+    border-top: 3px black solid;
     font-size: 20px;
     background-color: black;
     text-align: center;
