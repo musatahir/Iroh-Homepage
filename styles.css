@@ -101,13 +101,16 @@ p {
     cursor: pointer;
 }
 
-.header_logo:hover {
+.header_logo:hover,
+.hero_img:hover {
     transform: rotate(360deg);
 }
 
 .hero_img {
     height: 300px;
     width: auto;
+    transition: all 5.5s;
+    cursor: pointer;
 }
 
 
@@ -127,7 +130,7 @@ ul {
 
 
 .info_title {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .info_section {
@@ -140,10 +143,10 @@ ul {
     object-fit: cover;
 }
 
-h2 {
+.character_names {
     font-size: 3em;
-    /* text-align: center; */
 }
+
 
 .character_description {
     font-size: 25px;
